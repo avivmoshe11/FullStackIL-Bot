@@ -1,7 +1,7 @@
-# KBDiscordBot
+# FullStackIL Bot
 
 
-**KBDiscordBot** is a custom bot for discord, created to serve the FullStackIL discord community, using the *discord.js* v13 module.
+**FullStackIL Bot** is a custom bot for discord, created to serve the FullStackIL discord community, using the *discord.js* v13 module.
 
 
 
