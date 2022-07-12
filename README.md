@@ -44,7 +44,7 @@ A **bot** is an automated Discord account. It utilises the [Discord API](https:/
   `!!lock / !!unlock`
 
 * **adminpanel** - a never seen before command, made to make discord role settings moderation as simple as it can be. dynamically updates from the guild's role list and saved in a MongoDB database, applying the settings whenever you creat a new category in your guild. (because of the discord channels nature to extend the parent channel's (category) permissions. **[limited only to administrative roles]**
-  `!!adminpanel / deleting a role will rerun this function in the designated channel`
+  `!!adminpanel / deleting a role will re-run this function in the designated channel`
 
 * **ping pong** command to indicate the bot is currently responsive to your server.
   `!!ping`
