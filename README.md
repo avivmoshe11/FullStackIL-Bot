@@ -37,7 +37,7 @@ A **bot** is an automated Discord account. It utilises the [Discord API](https:/
 * **help** - a dynamic-designed command featuring a request for help by user, can add reason and will state voice channel if in one for efficiency bonus.
   `!!help <reason>`
   
-  ![alt text](https://github.com/avivmoshe11/FullStackIL-Bot/tree/master/src/images/help.png?raw=true)
+  ![alt text](https://github.com/avivmoshe11/FullStackIL-Bot/blob/master/src/images/help.png?raw=true)
 
 * **info** - a dynamic-designed command featuring all of the commands available by the bot with a description.
   `!!info`
