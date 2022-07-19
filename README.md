@@ -37,16 +37,21 @@ A **bot** is an automated Discord account. It utilises the [Discord API](https:/
 * **help** - a dynamic-designed command featuring a request for help by user, can add reason and will state voice channel if in one for efficiency bonus.
   `!!help <reason>`
   
-  ![alt text](https://github.com/avivmoshe11/FullStackIL-Bot/blob/master/src/images/help.png?raw=true)
+  ![help command with attributes](https://github.com/avivmoshe11/FullStackIL-Bot/blob/master/src/images/help.png?raw=true)
 
 * **info** - a dynamic-designed command featuring all of the commands available by the bot with a description.
   `!!info`
+  
+  ![info command](https://github.com/avivmoshe11/FullStackIL-Bot/blob/master/src/images/info.png?raw=true)
   
 * **lock/unlock** - locks/unlocks the server. (changes the view for members from null to false and from false to null) ignores pre-specified categories **[limited only to administrative roles]**.
   `!!lock / !!unlock`
 
 * **adminpanel** - a never seen before command, made to make discord role settings moderation as simple as it can be. dynamically updates from the guild's role list and saved in a MongoDB database, applying the settings whenever you creat a new category in your guild. (because of the discord channels nature to extend the parent channel's (category) permissions. **[limited only to administrative roles]**
   `!!adminpanel / deleting a role will re-run this function in the designated channel`
+  
+  partial interface:
+  ![adminpanel command](https://github.com/avivmoshe11/FullStackIL-Bot/blob/master/src/images/adminpanel.png?raw=true)
 
 * **ping pong** command to indicate the bot is currently responsive to your server.
   `!!ping`
