@@ -20,6 +20,7 @@ client.aliases = new Collection();
 
 const commands = fs.readdirSync("./src/commands").filter((file) => file.endsWith(".js"));
 console.log(`loading...`);
+
 for (file of commands) {
   const commandName = file.split(".")[0];
   const command = require(`./commands/${commandName}`);
